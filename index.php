@@ -65,16 +65,16 @@
 							<div class="col-md-4">
 					          	<div class="card mb-5 shadow-sm">
 					            	<div>
-  										<?=the_post_thumbnail('large', ['class' => 'img-fluid rounded '])?>
-									</div>
-						            <div class="card-body">
+  								<?=the_post_thumbnail('large', ['class' => 'img-fluid rounded '])?>
+							</div>
+						       	<div class="card-body">
 						              	<p class="card-text"> <?=the_content()?> </p>
 						              	<div class="d-flex justify-content-between align-items-center">
 							                <div class="btn-group">
 							                	<a href="<?=the_permalink()?>" role="button" class="btn btn-sm btn-outline-secondary"> View </a>
 							                </div>
 							                <small class="text-muted"> <?=the_date()?> </small>
-						              	</div>
+						       		</div>
 						            </div>
 					          	</div>
 					        </div>	
