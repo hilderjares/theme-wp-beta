@@ -1,0 +1,30 @@
+/*
+Theme name: Theme course
+Author: Hilderjares
+Author URI: http://github.com/hilderjares
+Description: Theme para empresas de cursos online e formações 
+Version: 1.0alpha
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+body {
+  font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+  color: #001A33;
+}
+
+/* 
+attachment-post-thumbnail size-post-thumbnail wp-post-image
+.size-post-thumbnail {
+	height: 6em;
+	width: 12em;
+}
+*/
+
+.menu-item {
+	padding: 10px;
+} 
+
+.space {
+	padding: 10px;
+}
